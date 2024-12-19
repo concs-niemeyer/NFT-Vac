@@ -1,0 +1,16 @@
+{
+	"extends": "../tsconfig.json",
+	"compilerOptions": {
+	  "module": "es2015", // Alterado de "commonjs" para "es2015"
+	  "target": "es2018",
+	  "lib": ["es2018"],
+	  "types": ["jest", "node"],
+	  "resolveJsonModule": true,
+	  "allowSyntheticDefaultImports": true,
+	  "esModuleInterop": true,
+	  "strict": true
+	},
+	"include": ["**/*.ts", "**/*.tsx"],
+	"exclude": ["node_modules", "dist"]
+  }
+  
